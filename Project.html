@@ -30,31 +30,31 @@
       <section id="main_content" class="inner">
 
         <h2>
-        <a id="Overview" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
+        <a id="Overview" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview - Onboarding Flow</h2>
 
         <p>The feature that I have chosen to highlight is our onboarding flow and adding medical records requests. Prior to my joining Betterpath, when a new patient wanted to use our service they would email us, we would respond to the email with a link to a TypeForm survey that asked for all of their information and all of their doctors. Once the patient filled out their survey, an employee had to manually create the patient's account and manually add the records request to SalesForce. <br> This was suboptimal for a number of reasons: <br> 
         <ul>
-          <li><b>Overhead</b> - For each new patient that signed up, our operations team had ~1 hour of manual work, it was clear that this could never scale</li>
-          <li><b>Conversion</b> - Because we didn't have a traditional onboarding flow that allowed the patient to complete the whole process at one time, we lost a lot of conversions at step in the process </li>
-          <li><b>Reliance on 3rd party tools</b> - by relying on these services, we were spending unnessecary money, and didn't have the flexibility that we wanted with the data</li>
+          <li><strong>Overhead</strong> - For each new patient that signed up, our operations team had ~1 hour of manual work, it was clear that this could never scale</li>
+          <li><strong>Conversion</strong> - Because we didn't have a traditional onboarding flow that allowed the patient to complete the whole process at one time, conversion rate dropped at each step in the process </li>
+          <li><strong>Reliance on 3rd party tools</strong> - by relying on these services, we were spending thousands of dollars, and didn't have the flexibility that we wanted with the data</li>
         </ul>
         </p>
         
         <h3>The Idea</h3>
-        <p>We realized that we could solve all of these problems and more by building an internal user facing onboarding flow. We performed a cost/benefeit analysis and determined that we would be much better served by making the investment in building our own onboarding flow. In true agile fashion, we built this in several iterations that built on the previous ones work. I will just focus on the final implementation, but felt that I should note that.</p>
+        <p>We realized that we could solve all of these problems and more by building an user facing onboarding flow in-house. I performed a cost/benefit analysis and determined that we would be much better served by making the investment in building our own onboarding flow. In true agile fashion, we built this in several iterations, improving value with each iteration. The description below describes the final iteration of the feature.</p>
         
         <h3>Initial Meetings</h3>
-        <p>The first step in a project this big was sitting down with everyone and explaining my ideas, getting feedback, and eventually buy in. My first meeting was with our operations team, who had been doing all of this work by hand. I explained the idea, made sure that it met their general needs, and that I hadn't missed anything important. Once they had agreed that this would work for them, I sat down with engineering. My meeting with engineering mainly focused on explaining the business reasons for making this change, and discussing the technical approach for it. Once everyone was on the same page about what we were doing, and how we were going to do it, the real work began.</p>
+        <p>The first step in a project this big was sitting down with all stakeholders and explaining my ideas, getting feedback, and eventually buy in. My first meeting was with our operations team, who had been doing all of this work manually. I explained the idea, made sure that it met their general needs, and that I hadn't missed anything important. Once they had agreed that this would work for them, I sat down with engineering. My meeting with engineering focused on explaining the business reasons for making this change, and discussing the technical approach for it. Once everyone was on the same page about what we were doing, and how we were going to do it, the real work began.</p>
         
         <h3>User Stories and Wireframing</h3>
-        <p>Now that we had approval on the high level goals and high level technical feasability, it was time to fill in all the details. Using the high level flow that had been agreen upon, I started writing stories for the main actions that every user would have to be able to do to make the feature a success. Even in a end-user facing feature like this, you need to always consider how this feature can and will affect different parts and users of the product. Once I was confident that the User Stories were in a good place I wireframed up what each screen and interaction would look like at a high level. Using the stories and wireframes together, I created the acceptance criteria for the stories, which are the detailed requirement that I would be checking for in acceptance testing.</p>
+        <p>Now that we had approval on the high level goals and high level technical feasability, it was time to fill in all the details. Using the high level flow that had been agreed upon, I started writing stories for the main actions that every user would have to be able to do to make the feature a success. Even in an end-user facing feature like this, you need to always consider how this feature can and will affect different parts and users of the product. Once I was confident that the User Stories were in a good place I wireframed up what each screen and interaction would look like at a high level. Using the stories and wireframes together, I created the acceptance criteria for the stories, which are the detailed requirement that I would be checking for in acceptance testing.</p>
         <a href="/userstory.pdf">Example User Story</a><br>
         <a href="/wireframepage1.png">Corresponding wireframe #1</a><br>
         <a href="/wireframepage2.png">Corresponding wireframe #2</a><br>
         <a href="/wireframepage3.png">Corresponding wireframe #3</a>
 
         <h3>Development and Test</h3>
-        <p>After the details were all ironed out, we prioritized the development and scheduled it for an upcoming sprint. I work extremely closely with my engineering and so I am always available for any questions they might have , or to rethink a particular element or interaction if the inital implementation was too difficult technically. Once the feature is complete I perform acceptance testing against my original stories before merging it to our QA teams branch. Once myself and our QA team has tested the feature I give the greenlight for the feature to be deployed to production.</p>
+        <p>After the details were all ironed out, we prioritized the development and scheduled it for an upcoming sprint. I work extremely closely with my engineering team and am always available for any questions they might have, or to rethink a particular element or interaction if the inital implementation was too difficult technically. Once the feature is complete I perform acceptance testing against my original stories before merging it to our QA teams branch. Once myself and our QA team has tested the feature I give the greenlight for the feature to be deployed to production.</p>
         
         <h3>Screenshots!</h3>
         <p>The screenshots below show what a patient who signs up for Betterpath sees.<br>
@@ -70,8 +70,9 @@
         </p>
       
         <img src="/Pathfinder Signup and Add Request/2.png" alt="Screenshot of Product" align="middle">
+        <p>Sign up on marketing website</p>
         <img src="/Pathfinder Signup and Add Request/5.png" alt="Screenshot of Product" align="middle">
-        <img src="/Pathfinder Signup and Add Request/4.png" alt="Screenshot of Product" align="middle">
+        
         <img src="/Pathfinder Signup and Add Request/6.png" alt="Screenshot of Product" align="middle">
         <img src="/Pathfinder Signup and Add Request/7.png" alt="Screenshot of Product" align="middle">
         <img src="/Pathfinder Signup and Add Request/8.png" alt="Screenshot of Product" align="middle">
