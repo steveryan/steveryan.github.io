@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Test
+title: Testingnav
 permalink: http://steveryan.github.io/testingnav/
 ---
 
