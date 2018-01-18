@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: http://steveryan.github.io/about.md
+permalink: http://steveryan.github.io/about/
 ---
 
 <amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/sports"></amp-img>
