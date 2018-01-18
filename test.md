@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Test
-permalink: http://steveryan.github.io/test/
+permalink: http://steveryan.github.io/testingnav/
 ---
 
 <amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/sports"></amp-img>
